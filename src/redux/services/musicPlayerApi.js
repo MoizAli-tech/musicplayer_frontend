@@ -34,7 +34,7 @@ export function fetchMusicData() {
     return async (dispatch, getState) => {
         const options = {
             method: 'GET',
-            url: 'http://localhost:5000/songs',
+            url: 'https://musicplayerapi.up.railway.app/',
         };
 
 
